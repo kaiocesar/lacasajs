@@ -6,7 +6,10 @@ Lib para criação de sistemas imobiliários
 - node.js > 8.x
 
 ### Instalação
-npm install
+yarn install
 
 ### test
-npm test
+yarn test
+
+### run
+yarn dev
