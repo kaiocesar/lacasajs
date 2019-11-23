@@ -1,12 +1,10 @@
 'use strict'
 
-const Property = require('../src/controllers/PropertyController')
+const PropertyLib = require('../src/lib/PropertyLib')
 const expect = require('chai').expect
 
 describe('Property module', () => {
-	describe('"up"', () => {
-		it('Should export a function', () => {
-			expect(() => {}).to.be.a('function')	
-		})
+	it('Should export a function', () => {
+		expect(PropertyLib).to.be.a('function')	
 	})
 })
