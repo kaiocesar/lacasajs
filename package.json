@@ -2,10 +2,11 @@
   "name": "paycheckjs",
   "version": "1.0.0",
   "description": "Pacote com função para auxiliar no calculo de folha de pagamento",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
     "test": "mocha __tests__/**/**.spec.js",
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
   },
   "repository": {
     "type": "git",
@@ -27,5 +28,8 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.7.12"
+  },
+  "engines": {
+	  "node": "10.16.0"
   }
 }

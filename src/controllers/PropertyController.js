@@ -1,8 +1,7 @@
 const PropertyModel = require('../models/Property');
 
-module.export = {
+module.exports = {
 	async index(req, res) {
 		return res.json({msg: "ok"});
-	}
-
+	},
 }
